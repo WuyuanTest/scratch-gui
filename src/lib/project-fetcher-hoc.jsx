@@ -136,7 +136,7 @@ const ProjectFetcherHOC = function (WrappedComponent) {
     };
     ProjectFetcherComponent.defaultProps = {
         assetHost: 'https://ourworld-qiniu.wuyuan.dev/material/asset',
-        projectHost: 'http://owscr.link'
+        projectHost: 'http://localhost:28080/scratch/play/project'
     };
 
     const mapStateToProps = state => ({
