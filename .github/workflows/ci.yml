@@ -10,10 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    permissions:
-      repository-projects: read/write
-      pages: read/write
-      
+
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js
